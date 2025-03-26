@@ -1,4 +1,7 @@
-#include<libc.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <string.h>
+#include <stdlib.h>
 
 void err(char *str)
 {
